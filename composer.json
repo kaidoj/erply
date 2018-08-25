@@ -19,6 +19,16 @@
             "Novica89\\Erply\\": "src/"
         }
     },
-    "minimum-stability": "stable"
+    "minimum-stability": "stable",
+    "extra":{
+        "laravel":{
+            "providers":[
+                "Novica89\\Erply\\ErplyServiceProvider"
+            ],
+            "aliases":{
+                "ErplyClient": "Novica89\\Erply\\ErplyClient"
+            }
+        }
+    }
 
 }
